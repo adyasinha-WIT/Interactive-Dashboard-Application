@@ -1,0 +1,13 @@
+Create 3 new tables 
+						Student (Stu_ID, Name)
+						ClassSession (Sess_ID, Date, Time, DayOfWeek, and Type (0 is Lecture, 1 is Lab))
+						and StudentAttendance (Stu_ID Ref Student, Sess_ID ClassSession, SS_Attendance, PRIMARY KEY (Stu_ID, Sess_ID))
+						
+Insert data from the imported tables (Attendance and ColumnList) 
+					into the new tables 
+
+Fill in the missing data in column SS_Attendance of table StudentAttendance 
+
+Convert the data in column SS_Attendance of table StudentAttendance from 100% and 0% to 1 and 0, respectively
+
+Create view(s), stored procedures and design Dashboard(s)
